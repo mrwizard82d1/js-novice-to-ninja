@@ -6,3 +6,4 @@ const calcArea = function(radius) {
 }
 
 calcArea(5);
+console.log(area);
