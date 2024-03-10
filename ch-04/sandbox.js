@@ -1,18 +1,7 @@
-// Function declarataions
-function greet() {
-    console.log("hello there");
-}
+// Arguments and parameters
 
-// Function expressions
 const speak = function() {
-    console.log("Woof!");
+    console.log("good day");
 }
-// Calling (declared) functions
-greet();
-greet();
-greet();
 
-// Calling function expressions. (Yes. No difference.)
-speak();
-speak();
 speak();
