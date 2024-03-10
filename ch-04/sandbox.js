@@ -1,9 +1,9 @@
 // Arguments and parameters
 
 // Defines a function **argument** for the function
-const speak = function(name) {
-    console.log(`good day, ${name}`);
+const speak = function(name, time) {
+    console.log(`good ${time}, ${name}`);
 }
 
 // Passes a function **parameter** into the function
-speak('mario');
+speak('mario', 'morning');
