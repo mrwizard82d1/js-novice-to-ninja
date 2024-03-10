@@ -5,8 +5,7 @@ let year = 2019;
 // Example of logging things to the console
 console.log(myAge, year);
 
-// Assigning a **new** value to a variable
-age = 30;
+/* age = 30;
 console.log(myAge);
 
 const points = 100;
@@ -14,4 +13,4 @@ console.log(points);
 
 // Older way to create variables
 var score = 75;
-console.log(score);
+console.log(score); */
