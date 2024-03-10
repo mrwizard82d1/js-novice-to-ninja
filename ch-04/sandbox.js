@@ -1,6 +1,11 @@
-// function declarataions
+// Function declarataions
 function greet() {
     console.log("Hi!");
 }
 
-// function expressions
+// Function expressions
+
+// Calling functions
+greet();
+greet();
+greet();
