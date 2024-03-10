@@ -1,11 +1,19 @@
 // Function declarataions
 function greet() {
-    console.log("Hi!");
+    console.log("hello there");
 }
 
 // Function expressions
+const speak = function() {
+    console.log("Woof!");
+}
 
-// Calling functions
-greet();
-greet();
-greet();
+// Calling (declared) functions
+// greet();
+// greet();
+// greet();
+
+// Calling function expressions. (Yes. No difference.)
+speak();
+speak();
+speak();
