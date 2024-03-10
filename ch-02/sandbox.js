@@ -1,2 +1,3 @@
-console.log(1);
-console.log(2);
+let age = 25;
+
+console.log(age);
