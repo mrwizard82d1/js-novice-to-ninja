@@ -6,4 +6,4 @@ const speak = function(name = 'luigi', time = 'evening') {
 }
 
 // Passes a function **parameter** into the function
-speak();
+speak('mario');
