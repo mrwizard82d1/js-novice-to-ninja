@@ -1,11 +1,8 @@
-// Arguments and parameters
+// Returning values
 
-// Defines a function **argument** for the function
-const speak = function(name = 'luigi', time = 'night') {
-    console.log(`good ${time}, ${name}`);
+const calcArea = function(radius) {
+    let area = Math.PI * radius ** 2;
+    console.log(area);
 }
 
-// Passes a function **parameter** into the function
-speak();
-speak('mario');
-speak('shaun', 'day')
+calcArea(5);
