@@ -1,14 +1,16 @@
-let age = 25;
+// Introducing camel case to name variables with multiple components
+let myAge = 25;
 let year = 2019;
 
-console.log(age, year);
+console.log(myAge, year);
 
 // Assigning a **new** value to a variable
 age = 30;
-console.log(age);
+console.log(myAge);
 
 const points = 100;
 console.log(points);
 
-points = 50;
-console.log(points);
+// Older way to create variables
+var score = 75;
+console.log(score);
