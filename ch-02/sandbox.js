@@ -2,6 +2,7 @@
 let myAge = 25;
 let year = 2019;
 
+// Example of logging things to the console
 console.log(myAge, year);
 
 // Assigning a **new** value to a variable
