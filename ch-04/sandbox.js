@@ -1,9 +1,8 @@
 // Returning values
 
 const calcArea = function(radius) {
-    let area = Math.PI * radius ** 2;
-    console.log(area);
+    return Math.PI * radius ** 2;
 }
 
-calcArea(5);
+const area = calcArea(5);
 console.log(area);
